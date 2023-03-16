@@ -1,0 +1,4633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="addBtn">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>940</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>추가</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_10" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>201</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="custFrame" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>201</width>
+      <height>781</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>고객</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addCustBtn">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>고객 추가</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_11" native="true">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>191</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>191</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="dayLbl_20">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>760</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_15">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>560</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_18">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>680</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_12">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>440</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_8">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>280</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>640</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_11">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>400</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_2">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>40</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_11">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>400</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_7">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>240</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_6">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>200</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_15">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>560</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>760</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_2">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>40</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>680</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_1">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>0</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_9">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>320</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_4">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>120</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_18">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>680</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_16">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>600</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_8">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>280</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_5">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>160</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_13">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>480</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_13">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>480</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_5">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>160</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_8">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>280</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_11">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>400</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_1">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>0</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_11">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>400</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_10">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>360</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_7">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>240</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_16">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>600</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>440</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_7">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>240</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_4">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>120</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_11">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>400</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_20">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>760</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_5">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>160</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_19">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>720</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_9">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>320</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_16">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>600</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_1">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>0</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_18">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>680</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_17">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>640</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_14">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>520</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_6">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>200</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_3">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>80</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_9">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>320</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_13">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>480</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_14">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>520</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_18">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>680</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_20">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>760</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_5">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>160</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_6">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>200</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_19">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>720</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_3">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>80</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_1">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>0</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_5">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>160</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_1">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>0</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_7">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>240</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_4">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>120</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_8">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>280</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_10">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>360</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_3">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>80</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_8">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>280</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_15">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>560</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_19">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>720</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_13">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>480</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_4">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>120</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_3">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>80</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_7">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>240</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_9">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>320</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_6">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>200</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_3">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>80</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_13">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>480</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_10">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>360</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_2">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>40</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_17">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>640</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_16">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>600</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_15">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>560</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_14">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>520</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_17">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>640</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_19">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>720</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_14">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>520</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_17">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>640</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_14">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>520</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_15">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>560</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_12">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>440</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_2">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>40</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_16">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>600</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_9">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>320</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="yearCmb_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>53</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_18">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>680</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_10">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>360</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_19">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>720</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_2">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>40</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_20">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>760</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_12">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>440</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="monthCmb_20">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>760</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_10">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>360</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="monthLbl_6">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>200</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_4">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>120</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dayCmb_12">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>440</y>
+       <width>38</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <property name="maxVisibleItems">
+      <number>20</number>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dayLbl_12">
+     <property name="geometry">
+      <rect>
+       <x>177</x>
+       <y>440</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yearLbl_17">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>640</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>년</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="dateAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 적용</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>날짜</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_12" native="true">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>691</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>91</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="pdBtn_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>440</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>680</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>640</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>760</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdBtn_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>상품 선택</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>591</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QLineEdit" name="pdEnt_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>680</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>640</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>760</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>440</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pdEnt_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>591</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>691</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>상품</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pdAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 적용</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_13" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>20</y>
+     <width>81</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>81</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QComboBox" name="delivCmb_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>760</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>480</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>440</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_15">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>560</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>360</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>520</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>640</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>600</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>720</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="delivCmb_18">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>680</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3500</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>택배비</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delivAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 적용</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_14" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>20</y>
+     <width>81</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>81</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QLineEdit" name="hsEnt_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>640</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>760</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>680</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>440</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hsEnt_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>해성</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hsAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 적용</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_15" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>20</y>
+     <width>81</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_7" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>81</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QLineEdit" name="bisEnt_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>440</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>760</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>640</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bisEnt_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>680</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>BIS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bisAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 적용</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_16" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1490</x>
+     <y>20</y>
+     <width>81</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_8" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>81</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QCheckBox" name="taxBox_15">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>560</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_4">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>120</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_14">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>520</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_20">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>760</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_13">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>480</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_11">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>400</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_12">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>440</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_1">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>0</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_19">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>720</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_2">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>40</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_10">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>360</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_17">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>640</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_6">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>200</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_16">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>600</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_7">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>240</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_8">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>280</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_5">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>160</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_9">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>320</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_3">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>80</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="taxBox_18">
+     <property name="geometry">
+      <rect>
+       <x>34</x>
+       <y>680</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>전세계</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="taxAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 적용</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_17" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>20</y>
+     <width>301</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_9" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>301</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <widget class="QLineEdit" name="noteEnt_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>640</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>760</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>440</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>680</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>560</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>160</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noteEnt_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>비고</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="noteAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 적용</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>yearCmb_1</tabstop>
+  <tabstop>monthCmb_1</tabstop>
+  <tabstop>dayCmb_1</tabstop>
+  <tabstop>pdBtn_1</tabstop>
+  <tabstop>delivCmb_1</tabstop>
+  <tabstop>hsEnt_1</tabstop>
+  <tabstop>bisEnt_1</tabstop>
+  <tabstop>taxBox_1</tabstop>
+  <tabstop>noteEnt_1</tabstop>
+  <tabstop>yearCmb_2</tabstop>
+  <tabstop>monthCmb_2</tabstop>
+  <tabstop>dayCmb_2</tabstop>
+  <tabstop>pdBtn_2</tabstop>
+  <tabstop>delivCmb_2</tabstop>
+  <tabstop>hsEnt_2</tabstop>
+  <tabstop>bisEnt_2</tabstop>
+  <tabstop>taxBox_2</tabstop>
+  <tabstop>noteEnt_2</tabstop>
+  <tabstop>yearCmb_3</tabstop>
+  <tabstop>monthCmb_3</tabstop>
+  <tabstop>dayCmb_3</tabstop>
+  <tabstop>pdBtn_3</tabstop>
+  <tabstop>delivCmb_3</tabstop>
+  <tabstop>hsEnt_3</tabstop>
+  <tabstop>bisEnt_3</tabstop>
+  <tabstop>taxBox_3</tabstop>
+  <tabstop>noteEnt_3</tabstop>
+  <tabstop>yearCmb_4</tabstop>
+  <tabstop>monthCmb_4</tabstop>
+  <tabstop>dayCmb_4</tabstop>
+  <tabstop>pdBtn_4</tabstop>
+  <tabstop>delivCmb_4</tabstop>
+  <tabstop>hsEnt_4</tabstop>
+  <tabstop>bisEnt_4</tabstop>
+  <tabstop>taxBox_4</tabstop>
+  <tabstop>noteEnt_4</tabstop>
+  <tabstop>yearCmb_5</tabstop>
+  <tabstop>monthCmb_5</tabstop>
+  <tabstop>dayCmb_5</tabstop>
+  <tabstop>pdBtn_5</tabstop>
+  <tabstop>delivCmb_5</tabstop>
+  <tabstop>hsEnt_5</tabstop>
+  <tabstop>bisEnt_5</tabstop>
+  <tabstop>taxBox_5</tabstop>
+  <tabstop>noteEnt_5</tabstop>
+  <tabstop>yearCmb_6</tabstop>
+  <tabstop>monthCmb_6</tabstop>
+  <tabstop>dayCmb_6</tabstop>
+  <tabstop>pdBtn_6</tabstop>
+  <tabstop>delivCmb_6</tabstop>
+  <tabstop>hsEnt_6</tabstop>
+  <tabstop>bisEnt_6</tabstop>
+  <tabstop>taxBox_6</tabstop>
+  <tabstop>noteEnt_6</tabstop>
+  <tabstop>yearCmb_7</tabstop>
+  <tabstop>monthCmb_7</tabstop>
+  <tabstop>dayCmb_7</tabstop>
+  <tabstop>pdBtn_7</tabstop>
+  <tabstop>delivCmb_7</tabstop>
+  <tabstop>hsEnt_7</tabstop>
+  <tabstop>bisEnt_7</tabstop>
+  <tabstop>taxBox_7</tabstop>
+  <tabstop>noteEnt_7</tabstop>
+  <tabstop>yearCmb_8</tabstop>
+  <tabstop>monthCmb_8</tabstop>
+  <tabstop>dayCmb_8</tabstop>
+  <tabstop>pdBtn_8</tabstop>
+  <tabstop>delivCmb_8</tabstop>
+  <tabstop>hsEnt_8</tabstop>
+  <tabstop>bisEnt_8</tabstop>
+  <tabstop>taxBox_8</tabstop>
+  <tabstop>noteEnt_8</tabstop>
+  <tabstop>yearCmb_9</tabstop>
+  <tabstop>monthCmb_9</tabstop>
+  <tabstop>dayCmb_9</tabstop>
+  <tabstop>pdBtn_9</tabstop>
+  <tabstop>delivCmb_9</tabstop>
+  <tabstop>hsEnt_9</tabstop>
+  <tabstop>bisEnt_9</tabstop>
+  <tabstop>taxBox_9</tabstop>
+  <tabstop>noteEnt_9</tabstop>
+  <tabstop>yearCmb_10</tabstop>
+  <tabstop>monthCmb_10</tabstop>
+  <tabstop>dayCmb_10</tabstop>
+  <tabstop>pdBtn_10</tabstop>
+  <tabstop>delivCmb_10</tabstop>
+  <tabstop>hsEnt_10</tabstop>
+  <tabstop>bisEnt_10</tabstop>
+  <tabstop>taxBox_10</tabstop>
+  <tabstop>noteEnt_10</tabstop>
+  <tabstop>yearCmb_11</tabstop>
+  <tabstop>monthCmb_11</tabstop>
+  <tabstop>dayCmb_11</tabstop>
+  <tabstop>pdBtn_11</tabstop>
+  <tabstop>delivCmb_11</tabstop>
+  <tabstop>hsEnt_11</tabstop>
+  <tabstop>bisEnt_11</tabstop>
+  <tabstop>taxBox_11</tabstop>
+  <tabstop>noteEnt_11</tabstop>
+  <tabstop>yearCmb_12</tabstop>
+  <tabstop>monthCmb_12</tabstop>
+  <tabstop>dayCmb_12</tabstop>
+  <tabstop>pdBtn_12</tabstop>
+  <tabstop>delivCmb_12</tabstop>
+  <tabstop>hsEnt_12</tabstop>
+  <tabstop>bisEnt_12</tabstop>
+  <tabstop>taxBox_12</tabstop>
+  <tabstop>noteEnt_12</tabstop>
+  <tabstop>yearCmb_13</tabstop>
+  <tabstop>monthCmb_13</tabstop>
+  <tabstop>dayCmb_13</tabstop>
+  <tabstop>pdBtn_13</tabstop>
+  <tabstop>delivCmb_13</tabstop>
+  <tabstop>hsEnt_13</tabstop>
+  <tabstop>bisEnt_13</tabstop>
+  <tabstop>taxBox_13</tabstop>
+  <tabstop>noteEnt_13</tabstop>
+  <tabstop>yearCmb_14</tabstop>
+  <tabstop>monthCmb_14</tabstop>
+  <tabstop>dayCmb_14</tabstop>
+  <tabstop>pdBtn_14</tabstop>
+  <tabstop>delivCmb_14</tabstop>
+  <tabstop>hsEnt_14</tabstop>
+  <tabstop>bisEnt_14</tabstop>
+  <tabstop>taxBox_14</tabstop>
+  <tabstop>noteEnt_14</tabstop>
+  <tabstop>yearCmb_15</tabstop>
+  <tabstop>monthCmb_15</tabstop>
+  <tabstop>dayCmb_15</tabstop>
+  <tabstop>pdBtn_15</tabstop>
+  <tabstop>delivCmb_15</tabstop>
+  <tabstop>hsEnt_15</tabstop>
+  <tabstop>bisEnt_15</tabstop>
+  <tabstop>taxBox_15</tabstop>
+  <tabstop>noteEnt_15</tabstop>
+  <tabstop>yearCmb_16</tabstop>
+  <tabstop>monthCmb_16</tabstop>
+  <tabstop>dayCmb_16</tabstop>
+  <tabstop>pdBtn_16</tabstop>
+  <tabstop>delivCmb_16</tabstop>
+  <tabstop>hsEnt_16</tabstop>
+  <tabstop>bisEnt_16</tabstop>
+  <tabstop>taxBox_16</tabstop>
+  <tabstop>noteEnt_16</tabstop>
+  <tabstop>yearCmb_17</tabstop>
+  <tabstop>monthCmb_17</tabstop>
+  <tabstop>dayCmb_17</tabstop>
+  <tabstop>pdBtn_17</tabstop>
+  <tabstop>delivCmb_17</tabstop>
+  <tabstop>hsEnt_17</tabstop>
+  <tabstop>bisEnt_17</tabstop>
+  <tabstop>taxBox_17</tabstop>
+  <tabstop>noteEnt_17</tabstop>
+  <tabstop>yearCmb_18</tabstop>
+  <tabstop>monthCmb_18</tabstop>
+  <tabstop>dayCmb_18</tabstop>
+  <tabstop>pdBtn_18</tabstop>
+  <tabstop>delivCmb_18</tabstop>
+  <tabstop>hsEnt_18</tabstop>
+  <tabstop>bisEnt_18</tabstop>
+  <tabstop>taxBox_18</tabstop>
+  <tabstop>noteEnt_18</tabstop>
+  <tabstop>yearCmb_19</tabstop>
+  <tabstop>monthCmb_19</tabstop>
+  <tabstop>dayCmb_19</tabstop>
+  <tabstop>pdBtn_19</tabstop>
+  <tabstop>delivCmb_19</tabstop>
+  <tabstop>hsEnt_19</tabstop>
+  <tabstop>bisEnt_19</tabstop>
+  <tabstop>taxBox_19</tabstop>
+  <tabstop>noteEnt_19</tabstop>
+  <tabstop>yearCmb_20</tabstop>
+  <tabstop>monthCmb_20</tabstop>
+  <tabstop>dayCmb_20</tabstop>
+  <tabstop>pdBtn_20</tabstop>
+  <tabstop>delivCmb_20</tabstop>
+  <tabstop>hsEnt_20</tabstop>
+  <tabstop>bisEnt_20</tabstop>
+  <tabstop>taxBox_20</tabstop>
+  <tabstop>noteEnt_20</tabstop>
+  <tabstop>addCustBtn</tabstop>
+  <tabstop>dateAllBtn</tabstop>
+  <tabstop>pdAllBtn</tabstop>
+  <tabstop>delivAllBtn</tabstop>
+  <tabstop>hsAllBtn</tabstop>
+  <tabstop>bisAllBtn</tabstop>
+  <tabstop>taxAllBtn</tabstop>
+  <tabstop>noteAllBtn</tabstop>
+  <tabstop>pdEnt_1</tabstop>
+  <tabstop>pdEnt_2</tabstop>
+  <tabstop>pdEnt_3</tabstop>
+  <tabstop>pdEnt_4</tabstop>
+  <tabstop>pdEnt_5</tabstop>
+  <tabstop>pdEnt_6</tabstop>
+  <tabstop>pdEnt_7</tabstop>
+  <tabstop>pdEnt_8</tabstop>
+  <tabstop>pdEnt_9</tabstop>
+  <tabstop>pdEnt_10</tabstop>
+  <tabstop>pdEnt_11</tabstop>
+  <tabstop>pdEnt_12</tabstop>
+  <tabstop>pdEnt_13</tabstop>
+  <tabstop>pdEnt_14</tabstop>
+  <tabstop>pdEnt_15</tabstop>
+  <tabstop>pdEnt_16</tabstop>
+  <tabstop>pdEnt_17</tabstop>
+  <tabstop>pdEnt_18</tabstop>
+  <tabstop>pdEnt_19</tabstop>
+  <tabstop>pdEnt_20</tabstop>
+  <tabstop>addBtn</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
